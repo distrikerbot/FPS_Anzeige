@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,Mouser Price/Stock,Manufacturer_Name,Mouser Part Number,Height,Manufacturer_Part_Number
+1,Unpolarized capacitor,C,C8 C9,12p,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,~,0805CG120J500NT,,,,,
+2,Unpolarized capacitor,C,C5 C6 C7 C10 C11 C12 C13,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,7,~,LMK212SD104KG-T,,,,,
+3,Polarized capacitor,CP,C1 C3 C4,10u,CP_Elec_4x4.5,3,~,VSS100M1CTR-0404,,,,,
+4,Polarized capacitor,CP,C2,100u,CP_Elec_5x5.3,1,~,VE-101M1ATR-0505,,,,,
+5,Light emitting diode,LED,D1,LED,LED_0805_2012Metric,1,~,17-21SYGC/S530-E2/TR8,,,,,
+6,LED Displays & Accessories Tri Red 625nm Common Cathode,BC56-12EWA,DS1,BC56-12EWA,DIPS1524W50P254L3760H835Q12N,1,http://www.kingbrightusa.com/images/catalog/SPEC/BC56-12EWA.pdf,BC56-12EWA,https://www.mouser.co.uk/ProductDetail/Kingbright/BC56-12EWA?qs=VdjlWU%2FzoOFYzPvg24W7QQ%3D%3D,Kingbright,604-BC56-12EWA,8.35,BC56-12EWA
+7,Ferrite bead,Ferrite_Bead,FB1,Ferrite_Bead,R_0805_2012Metric,1,~,CBW201209U601T,,,,,
+8,"Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x07,J3,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,1,~,,,,,,
+9,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Conn_ARM_JTAG_SWD_10,J2,Conn_ARM_JTAG_SWD_10,PinHeader_2x05_P1.27mm_Vertical,1,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,,,,
+10,USB Mini Type B connector,USB_B_Mini,J1,USB_B_Mini,USB_Mini-B_Wuerth_65100516121_Horizontal,1,~,,,,,,
+11,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",BC817,Q1 Q2 Q3,BC817,SOT-23,3,https://www.onsemi.com/pub/Collateral/BC818-D.pdf,KBC81740C,,,,,
+12,Resistor,R,R25 R26,0R,R_0805_2012Metric,2,~,0805W8F0000T5E,,,,,
+13,Resistor,R,R11 R12,15,R_0805_2012Metric,2,~,RTT05150JTP,,,,,
+14,Resistor,R,R13 R14 R15 R29 R30,33,R_0805_2012Metric,5,~,0805W8J0330T5E,,,,,
+15,Resistor,R,R2 R3 R4 R5 R6 R7 R8 R9 R10,100,R_0805_2012Metric,9,~,0805W8J0101T5E,,,,,
+16,Resistor,R,R22,470,R_0805_2012Metric,1,~,0805W8J0471T5E,,,,,
+17,Resistor,R,R27 R28,4.7k,R_0805_2012Metric,2,~,0805W8J0472T5E,,,,,
+18,Resistor,R,R16 R17 R18 R19 R20 R21,10k,R_0805_2012Metric,6,~,0805W8J0103T5E,,,,,
+19,Resistor,R,R1,33k,R_0805_2012Metric,1,~,RS-05K3302FT,,,,,
+20,Resistor,R,R24,100k,R_0805_2012Metric,1,~,RS-05K104JT,,,,,
+21,Resistor,R,R23,NC,R_0805_2012Metric,1,~,,,,,,
+22,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_Push_1P1T_NO_6x6mm_H9.5mm,1,~,,,,,,
+23,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",AMS1117-3.3,U1,AMS1117-3.3,SOT-223-3_TabPin2,1,http://www.advanced-monolithic.com/pdf/ds1117.pdf,AMS1117-3.3,,,,,
+24,"ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 100MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48",STM32F411CCUx,U3,STM32F411CCUx,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115249.pdf,STM32F411CCU6TR,,,,,
+25,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U2,USBLC6-2SC6,SOT-23-6,1,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,USBLC6-2SC6,,,,,
+26,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,Crystal_GND24,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,~,SX32Y024000BC1T,,,,,
+
+
+
+
+
+Component Groups:,26
+Component Count:,57
+Fitted Components:,57
+Number of PCBs:,1
+Total components:,57
+Schematic Version:,
+Schematic Date:,2021-04-21
+PCB Variant:,default
+BoM Date:,29.04.2021 18:56:18
+Schematic Source:,FPS_Anzeige_V2.sch
+KiCad Version:,Eeschema (5.1.9)-1
